@@ -6,7 +6,7 @@ Simple way to use NoSQL DB on Spring-Boot.
 
 ```bash
 # Running project
-$ mvn spring-boot:run
+mvn spring-boot:run
 
 # Preparing package for docker
 mvn package
