@@ -16,10 +16,10 @@ import lombok.RequiredArgsConstructor;
 @Document
 public class Book {
 
-    @Id
-    private String id;
-    
-    @NonNull
+	@Id
+	private String id;
+
+	@NonNull
 	private Integer bookId;
 
 	@NonNull
@@ -30,5 +30,5 @@ public class Book {
 
 	@NonNull
 	private Double bookCost;
-    
+
 }
